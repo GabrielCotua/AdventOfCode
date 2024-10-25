@@ -8,7 +8,7 @@ public class Main {
         String user = ""; // Cambia aqui el usuario de tu systema operativo linux
         try {
             String[] numbers = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"};
-            File myObj = new File(String.format("/home/%s/Documents/GitHub/AdventOfCode/Day-1/src/input.txt", user));
+            File myObj = new File(String.format("/home/%s/Documents/GitHub/AdventOfCode/src/input.txt", user));
             Scanner myReader = new Scanner(myObj);
 
             while (myReader.hasNextLine()) {
